@@ -17,8 +17,7 @@ public class CubeScript : MonoBehaviour
         
     }
     void wiggle()
-    {
-        
-        transform.position+=Vector3.left*Time.deltaTime*3;
+    { 
+        transform.position+=Vector3.left*Time.deltaTime*3;   
     }
 }
